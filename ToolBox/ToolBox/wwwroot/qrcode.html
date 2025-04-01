@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="zh-hant>
+<head>
+    <meta charset="utf-8" />
+    <title>QRCode 產生器</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            background-color: #f0f2f5;
+            padding: 40px;
+            text-align: center;
+        }
+        h1{
+            margin-bottom:20px;
+        }
+        input,select,button{
+            padding: 10px;
+            margin:10px;
+            font-size:16px;
+        }
+        #qrcode{
+            margin-top:30px;
+            background: white;
+            padding:10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>📷 QRCode 產生器</h1>
+    <div>
+        <input type="text" id="text" placeholder="請輸入要轉換的內容" />
+        <select id="format">
+            <option value="png">PNG</option>
+            <option value="svg">SVG</option>
+        </select>
+        <button onclick="generateQRCode()">產生</button>
+        <a href="main.html"><button>返回主頁</button></a>
+    </div>
+    <div>id="這裡會顯示QRCode"</div>
+    <script>
+        function generateQRCode() {
+            const text = document.getElementById(`text`).value.trim();
+            const format = document.getElementById(`format`).value;
+            const preview = document.getElementById(`qrcode`);
+        }
+
+        if (!text) {
+            preview.innerHTML = `<p style="color:red;">請輸入內容</p>`;
+            return;
+        }
+
+        const url = `http://localhost:5267/api/qrcode?text=${encodeURIComponent(text)}&format=${format}`;
+
+        if (format === `png`) {
+            preview.innerHTML = `<img src="${url}" alt="QRCode"/>`;
+        } else {
+            fetch(url)
+                .then(res => res.text())
+                .then(svg => {
+                    preview.innerHTML = svg;
+                })
+                .catch(err => {
+                    preview.innerHTML = `<p style="color:red;">產生失敗</p>`;
+                });
+        }
+    }
+    </script>
+</body>
+</html>

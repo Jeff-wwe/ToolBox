@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "M/7IzFfM1VaLUQDtXzhKNEx1+SsicOUZnEKP9qERANE=",
+  "Source": "ToolBox",
+  "BasePath": "_content/ToolBox",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ToolBox\\wwwroot",
+      "Source": "ToolBox",
+      "ContentRoot": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\",
+      "BasePath": "_content/ToolBox",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
+      "SourceId": "ToolBox",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\",
+      "BasePath": "_content/ToolBox",
+      "RelativePath": "main#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p7zmdg8nd5",
+      "Integrity": "O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main.html"
+    },
+    {
+      "Identity": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\qrcode.html",
+      "SourceId": "ToolBox",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\",
+      "BasePath": "_content/ToolBox",
+      "RelativePath": "qrcode#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fpr65bvrev",
+      "Integrity": "PU1IuR9gI/LzACstU9KCMWHOcf8h453bic3lwCEW5p0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\qrcode.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "main.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 08:20:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU="
+        }
+      ]
+    },
+    {
+      "Route": "main.p7zmdg8nd5.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 08:20:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p7zmdg8nd5"
+        },
+        {
+          "Name": "label",
+          "Value": "main.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU="
+        }
+      ]
+    },
+    {
+      "Route": "qrcode.fpr65bvrev.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\qrcode.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PU1IuR9gI/LzACstU9KCMWHOcf8h453bic3lwCEW5p0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 07:56:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fpr65bvrev"
+        },
+        {
+          "Name": "label",
+          "Value": "qrcode.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PU1IuR9gI/LzACstU9KCMWHOcf8h453bic3lwCEW5p0="
+        }
+      ]
+    },
+    {
+      "Route": "qrcode.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\qrcode.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PU1IuR9gI/LzACstU9KCMWHOcf8h453bic3lwCEW5p0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 07:56:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PU1IuR9gI/LzACstU9KCMWHOcf8h453bic3lwCEW5p0="
+        }
+      ]
+    }
+  ]
+}
