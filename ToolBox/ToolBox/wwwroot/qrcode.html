@@ -1,71 +1,112 @@
 ﻿<!DOCTYPE html>
-<html lang="zh-hant>
+<html lang="zh-Hant">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <title>QRCode 產生器</title>
     <style>
-        body{
-            font-family: Arial,sans-serif;
+        body {
+            font-family: Arial, sans-serif;
             background-color: #f0f2f5;
             padding: 40px;
             text-align: center;
         }
-        h1{
-            margin-bottom:20px;
+
+        .tool-title {
+            font-size: 28px;
+            margin-bottom: 20px;
         }
-        input,select,button{
+
+        .input-group {
+            margin: 20px 0;
+        }
+
+        .input-box {
             padding: 10px;
-            margin:10px;
-            font-size:16px;
+            font-size: 16px;
+            width: 300px;
+            max-width: 90%;
+            margin: 5px;
         }
-        #qrcode{
-            margin-top:30px;
+
+        .select-box {
+            padding: 10px;
+            font-size: 16px;
+            margin: 5px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+            .btn:hover {
+                background-color: #0056b3;
+            }
+
+        .qrcode-preview {
+            margin-top: 30px;
             background: white;
-            padding:10px;
+            padding: 20px;
             border: 1px solid #ccc;
             display: inline-block;
         }
+
+        .error-message {
+            color: red;
+            font-weight: bold;
+        }
     </style>
 </head>
+
 <body>
-    <h1>📷 QRCode 產生器</h1>
-    <div>
-        <input type="text" id="text" placeholder="請輸入要轉換的內容" />
-        <select id="format">
+    <h1 class="tool-title">📷 QRCode 產生器</h1>
+
+    <div class="input-group">
+        <input type="text" id="text" class="input-box" placeholder="請輸入要產生的內容" />
+        <select id="format" class="select-box">
             <option value="png">PNG</option>
             <option value="svg">SVG</option>
         </select>
-        <button onclick="generateQRCode()">產生</button>
-        <a href="main.html"><button>返回主頁</button></a>
+        <button class="btn" onclick="generateQRCode()">產生</button>
+        <a href="main.html"><button class="btn">返回主頁</button></a>
     </div>
-    <div>id="這裡會顯示QRCode"</div>
+
+    <div id="qrcode" class="qrcode-preview">這裡會顯示 QRCode</div>
+
     <script>
         function generateQRCode() {
-            const text = document.getElementById(`text`).value.trim();
-            const format = document.getElementById(`format`).value;
-            const preview = document.getElementById(`qrcode`);
-        }
+            const text = document.getElementById('text').value.trim();
+            const format = document.getElementById('format').value;
+            const preview = document.getElementById('qrcode');
 
-        if (!text) {
-            preview.innerHTML = `<p style="color:red;">請輸入內容</p>`;
-            return;
-        }
+            if (!text) {
+                preview.innerHTML = '<p class="error-message">請輸入內容</p>';
+                return;
+            }
 
-        const url = `http://localhost:5267/api/qrcode?text=${encodeURIComponent(text)}&format=${format}`;
+            const url = `http://localhost:5267/api/qrcode?text=${encodeURIComponent(text)}&format=${format}`;
 
-        if (format === `png`) {
-            preview.innerHTML = `<img src="${url}" alt="QRCode"/>`;
-        } else {
-            fetch(url)
-                .then(res => res.text())
-                .then(svg => {
-                    preview.innerHTML = svg;
-                })
-                .catch(err => {
-                    preview.innerHTML = `<p style="color:red;">產生失敗</p>`;
-                });
+
+            if (format === 'png') {
+                preview.innerHTML = `<img src="${url}" alt="QRCode" />`;
+            } else {
+                fetch(url)
+                    .then(res => res.text())
+                    .then(svg => {
+                        preview.innerHTML = svg;
+                    })
+                    .catch(err => {
+                        preview.innerHTML = '<p class="error-message">產生失敗</p>';
+                    });
+            }
         }
-    }
     </script>
+
 </body>
 </html>

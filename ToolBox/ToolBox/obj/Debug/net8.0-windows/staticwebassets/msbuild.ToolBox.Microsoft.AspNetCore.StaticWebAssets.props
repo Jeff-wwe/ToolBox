@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fpr65bvrev</Fingerprint>
-      <Integrity>PU1IuR9gI/LzACstU9KCMWHOcf8h453bic3lwCEW5p0=</Integrity>
+      <Fingerprint>futxo3dlpx</Fingerprint>
+      <Integrity>VykbWGedmJFJg5Yge3f25dKpWt95yblyKXTLidP91TA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\qrcode.html'))</OriginalItemSpec>

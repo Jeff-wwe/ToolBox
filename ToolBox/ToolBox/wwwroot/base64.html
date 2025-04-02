@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="utf-8" />
+    <title>Base64編碼/解碼工具</title>
+
+    <style>
+        body{
+            font-family: Arial,Sans Serif;
+            background-color: #f9f9f9;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1{
+            font-size: 28px;
+            margin-bottom:20px;
+        }
+
+        textarea{
+            width:45%;
+            height:150px;
+            margin:10px;
+            padding:10px;
+            font-size:14px;
+            resize:none;
+        }
+
+        .btn{
+            margin:10px;
+            padding:10px 20px;
+            font-size:16px;
+            border: none;
+            border-radius: 6px;
+            cursor:pointer;
+            background-color:#007bff;
+            color: white;
+        }
+        
+        .btn:hover{
+               background-color:#0056b3;
+        }
+
+        .container{
+            display:flex;
+            justify-content:center;
+            flex-wrap: wrap;
+        }
+
+        .footer-btn {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1> Base64 編碼 / 解碼 工具</h1>
+
+    <div class="container">
+        <textarea id="input" placeholder="請輸入原始文字 Base64 字串...></textarea>
+        <textarea id="input" placeholder="這裡會顯示結果..." readonly></textarea>
+    </div>
+
+    <div>
+        <button class="btn" onclick="encodeBase64()">編碼➜</button>
+        <button class="btn" onclick="decodeBase64()">解碼➜</button>
+    </div>
+
+    <div class="footer-btn">
+        <a href="main.html"><button class="btn">返回主頁</button></a>
+    </div>
+
+    <script>
+        function encodeBase64() {
+            const input = document.getElementById(`input`).value;
+            try {
+                const encoded = btoa(unescape(encodeURIComponent(input)));
+                document.getElementById(`output`).value = encoded;
+            } catch (err) {
+                document.getElementById(`output`).value = `編碼錯誤:輸入格式不正確`;
+            }
+        }
+    </script>
+</body>
+</html>

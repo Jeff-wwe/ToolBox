@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "ContainingType": "ToolBoxQrcode.Controllers.QrCodeController",
+    "Method": "Generate",
+    "RelativePath": "api/QrCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "format",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -4,6 +4,37 @@
     "title": "ToolBox",
     "version": "1.0"
   },
-  "paths": { },
+  "paths": {
+    "/api/QrCode": {
+      "get": {
+        "tags": [
+          "QrCode"
+        ],
+        "parameters": [
+          {
+            "name": "text",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": "Hello"
+            }
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": "png"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
   "components": { }
 }
