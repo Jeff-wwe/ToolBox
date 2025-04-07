@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\C#\\ToolBox\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E6C672A-F971-4A5C-B34A-1F2A98C89FE1}|ToolBox\\ToolBox.csproj|d:\\c#\\toolbox\\toolbox\\wwwroot\\base64.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E6C672A-F971-4A5C-B34A-1F2A98C89FE1}|ToolBox\\ToolBox.csproj|solutionrelative:toolbox\\wwwroot\\base64.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E6C672A-F971-4A5C-B34A-1F2A98C89FE1}|ToolBox\\ToolBox.csproj|d:\\c#\\toolbox\\toolbox\\wwwroot\\unit-converter.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E6C672A-F971-4A5C-B34A-1F2A98C89FE1}|ToolBox\\ToolBox.csproj|solutionrelative:toolbox\\wwwroot\\unit-converter.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E6C672A-F971-4A5C-B34A-1F2A98C89FE1}|ToolBox\\ToolBox.csproj|d:\\c#\\toolbox\\toolbox\\wwwroot\\qrcode.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E6C672A-F971-4A5C-B34A-1F2A98C89FE1}|ToolBox\\ToolBox.csproj|solutionrelative:toolbox\\wwwroot\\qrcode.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E6C672A-F971-4A5C-B34A-1F2A98C89FE1}|ToolBox\\ToolBox.csproj|d:\\c#\\toolbox\\toolbox\\wwwroot\\base64.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E6C672A-F971-4A5C-B34A-1F2A98C89FE1}|ToolBox\\ToolBox.csproj|solutionrelative:toolbox\\wwwroot\\base64.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E6C672A-F971-4A5C-B34A-1F2A98C89FE1}|ToolBox\\ToolBox.csproj|d:\\c#\\toolbox\\toolbox\\wwwroot\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,28 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "base64.html",
-              "DocumentMoniker": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
-              "RelativeDocumentMoniker": "ToolBox\\wwwroot\\base64.html",
-              "ToolTip": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
-              "RelativeToolTip": "ToolBox\\wwwroot\\base64.html",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADYAAAAHAAAAAAAAAA==",
+              "Title": "unit-converter.html",
+              "DocumentMoniker": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\unit-converter.html",
+              "RelativeDocumentMoniker": "ToolBox\\wwwroot\\unit-converter.html",
+              "ToolTip": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\unit-converter.html",
+              "RelativeToolTip": "ToolBox\\wwwroot\\unit-converter.html",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAI4AAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-04-02T07:06:35.925Z",
+              "WhenOpened": "2025-04-07T06:20:18.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "qrcode.html",
-              "DocumentMoniker": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\qrcode.html",
-              "RelativeDocumentMoniker": "ToolBox\\wwwroot\\qrcode.html",
-              "ToolTip": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\qrcode.html",
-              "RelativeToolTip": "ToolBox\\wwwroot\\qrcode.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Title": "base64.html",
+              "DocumentMoniker": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
+              "RelativeDocumentMoniker": "ToolBox\\wwwroot\\base64.html",
+              "ToolTip": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
+              "RelativeToolTip": "ToolBox\\wwwroot\\base64.html",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-04-02T02:57:32.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T07:06:35.925Z"
             },
             {
               "$type": "Document",
@@ -58,10 +57,9 @@
               "RelativeDocumentMoniker": "ToolBox\\wwwroot\\main.html",
               "ToolTip": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
               "RelativeToolTip": "ToolBox\\wwwroot\\main.html",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-04-01T01:52:58.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T01:52:58.693Z"
             }
           ]
         }

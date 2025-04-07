@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aWrp1LjOjRyIzoz3xQ1SRHjmmSibgDX923upN+MDO4E=",
+  "Hash": "+S/+LE+/BbrKs3kF+nT2c9KkiBBwygUreSUQl1PX2X0=",
   "Source": "ToolBox",
   "BasePath": "_content/ToolBox",
   "Mode": "Default",
@@ -17,6 +17,27 @@
   ],
   "Assets": [
     {
+      "Identity": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
+      "SourceId": "ToolBox",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\",
+      "BasePath": "_content/ToolBox",
+      "RelativePath": "base64#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "er1kmp8igk",
+      "Integrity": "FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\base64.html"
+    },
+    {
       "Identity": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
       "SourceId": "ToolBox",
       "SourceType": "Discovered",
@@ -31,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "p7zmdg8nd5",
-      "Integrity": "O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU=",
+      "Fingerprint": "cld31g5ag7",
+      "Integrity": "cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\main.html"
@@ -52,14 +73,141 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "futxo3dlpx",
-      "Integrity": "VykbWGedmJFJg5Yge3f25dKpWt95yblyKXTLidP91TA=",
+      "Fingerprint": "xo3eh4pakh",
+      "Integrity": "z6SowwwrpwuHK9lzFI7kM3AIhk3+pzmeg0gBTf3mbEo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\qrcode.html"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "base64.er1kmp8igk.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:44:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "er1kmp8igk"
+        },
+        {
+          "Name": "label",
+          "Value": "base64.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE="
+        }
+      ]
+    },
+    {
+      "Route": "base64.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:44:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE="
+        }
+      ]
+    },
+    {
+      "Route": "main.cld31g5ag7.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 02:03:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cld31g5ag7"
+        },
+        {
+          "Name": "label",
+          "Value": "main.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28="
+        }
+      ]
+    },
     {
       "Route": "main.html",
       "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
@@ -71,7 +219,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1288"
         },
         {
           "Name": "Content-Type",
@@ -79,11 +227,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU=\""
+          "Value": "\"cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 08:20:41 GMT"
+          "Value": "Mon, 07 Apr 2025 02:03:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -93,97 +241,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU="
-        }
-      ]
-    },
-    {
-      "Route": "main.p7zmdg8nd5.html",
-      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1137"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 08:20:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "p7zmdg8nd5"
-        },
-        {
-          "Name": "label",
-          "Value": "main.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU="
-        }
-      ]
-    },
-    {
-      "Route": "qrcode.futxo3dlpx.html",
-      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\qrcode.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3150"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VykbWGedmJFJg5Yge3f25dKpWt95yblyKXTLidP91TA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:12:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "futxo3dlpx"
-        },
-        {
-          "Name": "label",
-          "Value": "qrcode.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VykbWGedmJFJg5Yge3f25dKpWt95yblyKXTLidP91TA="
+          "Value": "sha256-cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28="
         }
       ]
     },
@@ -198,7 +256,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3150"
+          "Value": "3102"
         },
         {
           "Name": "Content-Type",
@@ -206,11 +264,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VykbWGedmJFJg5Yge3f25dKpWt95yblyKXTLidP91TA=\""
+          "Value": "\"z6SowwwrpwuHK9lzFI7kM3AIhk3+pzmeg0gBTf3mbEo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:12:09 GMT"
+          "Value": "Wed, 02 Apr 2025 03:47:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -220,7 +278,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VykbWGedmJFJg5Yge3f25dKpWt95yblyKXTLidP91TA="
+          "Value": "sha256-z6SowwwrpwuHK9lzFI7kM3AIhk3+pzmeg0gBTf3mbEo="
+        }
+      ]
+    },
+    {
+      "Route": "qrcode.xo3eh4pakh.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\qrcode.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z6SowwwrpwuHK9lzFI7kM3AIhk3+pzmeg0gBTf3mbEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 03:47:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xo3eh4pakh"
+        },
+        {
+          "Name": "label",
+          "Value": "qrcode.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z6SowwwrpwuHK9lzFI7kM3AIhk3+pzmeg0gBTf3mbEo="
         }
       ]
     }

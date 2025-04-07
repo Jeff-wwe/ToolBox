@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\base64.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ToolBox</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ToolBox</BasePath>
+      <RelativePath>base64.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>er1kmp8igk</Fingerprint>
+      <Integrity>FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\base64.html'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main.html'))">
       <SourceType>Package</SourceType>
       <SourceId>ToolBox</SourceId>
@@ -12,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>p7zmdg8nd5</Fingerprint>
-      <Integrity>O/dmgd0rR9j0lYFX7ALT4JRa+zuEdCfgFESiP3TFxGU=</Integrity>
+      <Fingerprint>cld31g5ag7</Fingerprint>
+      <Integrity>cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main.html'))</OriginalItemSpec>
@@ -30,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>futxo3dlpx</Fingerprint>
-      <Integrity>VykbWGedmJFJg5Yge3f25dKpWt95yblyKXTLidP91TA=</Integrity>
+      <Fingerprint>xo3eh4pakh</Fingerprint>
+      <Integrity>z6SowwwrpwuHK9lzFI7kM3AIhk3+pzmeg0gBTf3mbEo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\qrcode.html'))</OriginalItemSpec>

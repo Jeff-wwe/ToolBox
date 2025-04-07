@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
+      "PackagePath": "staticwebassets\\base64.html"
+    },
+    {
       "Id": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
       "PackagePath": "staticwebassets\\main.html"
     },

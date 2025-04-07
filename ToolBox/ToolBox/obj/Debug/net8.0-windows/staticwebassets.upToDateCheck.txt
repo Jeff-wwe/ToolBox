@@ -1,2 +1,3 @@
+wwwroot\base64.html
 wwwroot\main.html
 wwwroot\qrcode.html

@@ -57,8 +57,8 @@
     <h1> Base64 編碼 / 解碼 工具</h1>
 
     <div class="container">
-        <textarea id="input" placeholder="請輸入原始文字 Base64 字串...></textarea>
-        <textarea id="input" placeholder="這裡會顯示結果..." readonly></textarea>
+        <textarea id="input" placeholder="請輸入原始文字/Base64 字串..."></textarea>
+        <textarea id="output" placeholder="這裡會顯示結果..." readonly></textarea>
     </div>
 
     <div>
@@ -80,6 +80,17 @@
                 document.getElementById(`output`).value = `編碼錯誤:輸入格式不正確`;
             }
         }
+
+        function decodeBase64() {
+            const input = document.getElementById(`input`).value;
+            try {
+                const decode = decodeURIComponent(escape(atob(input)));
+                document.getElementById(`output`).value = decode;
+            } catch (err) {
+                document.getElementById(`output`).value = `錯誤，不是有效的Base64`;
+            }
+        }
+
     </script>
 </body>
 </html>
