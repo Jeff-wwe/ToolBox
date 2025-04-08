@@ -50,19 +50,32 @@
         .footer-btn {
             margin-top: 20px;
         }
+
+        #weightResult, #lengthResult {
+            margin-top: 15px;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: green;
+            background-color: #e7ffe7;
+            border:1px solid #7ccc7c;
+            border-radius: 6px;
+            display: inline-block;
+            min-width: 200px;
+        }
     </style>
     
 </head>
 <body>
     <h1>單位轉換器</h1>
     
-    <select id="unitTypeSelector">
+    <select id="unitTypeSelector" >
         <option value="length">長度</option>
-        <option vlaue="weight">重量</option>
+        <option value="weight">重量</option>
     </select>
 
 
-    <div id="lengthSection" class="unit-section">
+    <div id="lengthSection" class="unit-section" active-section>
         <input type="number" id="lengthInput" placeholder="輸入數值">
         <select id="lengthFrom">
             <option value="m">公尺(m)</option>
@@ -71,17 +84,17 @@
             <option value="in">英吋(in)</option>
         </select>
         ➜
-        <section id="lengthTo">
+        <select id="lengthTo">
             <option value="m">公尺(m)</option>
             <option value="km">公里(km)</option>
             <option value="ft">英尺(ft)</option>
             <option value="in">英吋(in)</option>
-        </section>
+        </select>
         <div><button class="btn" onclick="convertLength()">轉換</button></div>
         <div id="lengthResult"></div>
     </div>
 
-    <div id="weightSection" class="unit-section">
+    <div id="weightSection" class="unit-section" active-section>
         <input type="number" id="weightInput" placeholder="請輸入數值">
         <select id="weightFrom">
             <option value="g">公克(g)</option>
@@ -126,7 +139,7 @@
             in: 0.0254
         };
 
-        const weightFactor = {
+        const weightFactors = {
             g: 1,
             kg: 1000,
             oz: 28.3495,
@@ -140,7 +153,23 @@
             if (!isNaN(value)) {
                 const meters = value * lengthFactors[from];
                 const result = meters / lengthFactors[to];
-                document.getElementById(`lengthResult`).innerText = `結果:${result.toFixed(4)} ${to}`;
+                document.getElementById(`lengthResult`).innerText = `結果:${result.toFixed(2)}   ${to}`;
+            } else {
+                document.getElementById(`lengthResult`).innerText = `請輸入有效值`;
+            }
+        }
+
+        function convertWeight() {
+            const value = parseFloat(document.getElementById(`weightInput`).value);
+            const from = document.getElementById(`weightFrom`).value;
+            const to = document.getElementById(`weightTo`).value;
+
+            if (!isNaN(value)) {
+                const grams = value * weightFactors[from];
+                const result = grams / weightFactors[to];
+                document.getElementById('weightResult').innerText = `結果：${result.toFixed(2)}   ${to}`;
+            } else {
+                document.getElementById(`weightResult`).innerText = `請輸入有效值`;
             }
         }
     </script>

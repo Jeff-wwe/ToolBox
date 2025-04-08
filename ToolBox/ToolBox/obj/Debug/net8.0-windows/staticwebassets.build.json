@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+S/+LE+/BbrKs3kF+nT2c9KkiBBwygUreSUQl1PX2X0=",
+  "Hash": "+sR8tOri/nfamCcjwpqNaS7uXX8bw6V2l8H6i6ONWEo=",
   "Source": "ToolBox",
   "BasePath": "_content/ToolBox",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "er1kmp8igk",
-      "Integrity": "FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE=",
+      "Fingerprint": "l8a5saonfs",
+      "Integrity": "FQdMHo9vHXofIld/3PKCppWaXhWGpRNLEu+GoXqZuPk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\base64.html"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cld31g5ag7",
-      "Integrity": "cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28=",
+      "Fingerprint": "8b63au7pe5",
+      "Integrity": "TItOznJLtJ/iKNnQOZ2FqmPmjCOMhgo5I1j3JVFqyxM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\main.html"
@@ -78,54 +78,30 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\qrcode.html"
+    },
+    {
+      "Identity": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\unit-converter.html",
+      "SourceId": "ToolBox",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\",
+      "BasePath": "_content/ToolBox",
+      "RelativePath": "unit-converter#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kaxw5yzujr",
+      "Integrity": "dPIUtceZ3Qrk4ko1SvEgdM3Xd1xxBn5bqsAGmGM5HtA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\unit-converter.html"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "base64.er1kmp8igk.html",
-      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2616"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 05:44:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "er1kmp8igk"
-        },
-        {
-          "Name": "label",
-          "Value": "base64.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE="
-        }
-      ]
-    },
     {
       "Route": "base64.html",
       "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
@@ -145,11 +121,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE=\""
+          "Value": "\"FQdMHo9vHXofIld/3PKCppWaXhWGpRNLEu+GoXqZuPk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 05:44:24 GMT"
+          "Value": "Mon, 07 Apr 2025 05:45:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -159,13 +135,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FuB6f4XMOTDcu5ZpeJF9AY0K5DUzSvz5MWiErXjl7NE="
+          "Value": "sha256-FQdMHo9vHXofIld/3PKCppWaXhWGpRNLEu+GoXqZuPk="
         }
       ]
     },
     {
-      "Route": "main.cld31g5ag7.html",
-      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
+      "Route": "base64.l8a5saonfs.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\base64.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -174,7 +150,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1288"
+          "Value": "2616"
         },
         {
           "Name": "Content-Type",
@@ -182,11 +158,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28=\""
+          "Value": "\"FQdMHo9vHXofIld/3PKCppWaXhWGpRNLEu+GoXqZuPk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 02:03:07 GMT"
+          "Value": "Mon, 07 Apr 2025 05:45:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -196,7 +172,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cld31g5ag7"
+          "Value": "l8a5saonfs"
+        },
+        {
+          "Name": "label",
+          "Value": "base64.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FQdMHo9vHXofIld/3PKCppWaXhWGpRNLEu+GoXqZuPk="
+        }
+      ]
+    },
+    {
+      "Route": "main.8b63au7pe5.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1401"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TItOznJLtJ/iKNnQOZ2FqmPmjCOMhgo5I1j3JVFqyxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 07:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8b63au7pe5"
         },
         {
           "Name": "label",
@@ -204,7 +225,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28="
+          "Value": "sha256-TItOznJLtJ/iKNnQOZ2FqmPmjCOMhgo5I1j3JVFqyxM="
         }
       ]
     },
@@ -219,7 +240,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1288"
+          "Value": "1401"
         },
         {
           "Name": "Content-Type",
@@ -227,11 +248,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28=\""
+          "Value": "\"TItOznJLtJ/iKNnQOZ2FqmPmjCOMhgo5I1j3JVFqyxM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 02:03:07 GMT"
+          "Value": "Tue, 08 Apr 2025 07:31:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -241,7 +262,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cOcjoQlC7TiHg5v1uXA1Bos06qMP+GyNV6l3YgZZm28="
+          "Value": "sha256-TItOznJLtJ/iKNnQOZ2FqmPmjCOMhgo5I1j3JVFqyxM="
         }
       ]
     },
@@ -324,6 +345,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-z6SowwwrpwuHK9lzFI7kM3AIhk3+pzmeg0gBTf3mbEo="
+        }
+      ]
+    },
+    {
+      "Route": "unit-converter.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\unit-converter.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dPIUtceZ3Qrk4ko1SvEgdM3Xd1xxBn5bqsAGmGM5HtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 08:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dPIUtceZ3Qrk4ko1SvEgdM3Xd1xxBn5bqsAGmGM5HtA="
+        }
+      ]
+    },
+    {
+      "Route": "unit-converter.kaxw5yzujr.html",
+      "AssetFile": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\unit-converter.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dPIUtceZ3Qrk4ko1SvEgdM3Xd1xxBn5bqsAGmGM5HtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 08:45:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kaxw5yzujr"
+        },
+        {
+          "Name": "label",
+          "Value": "unit-converter.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dPIUtceZ3Qrk4ko1SvEgdM3Xd1xxBn5bqsAGmGM5HtA="
         }
       ]
     }

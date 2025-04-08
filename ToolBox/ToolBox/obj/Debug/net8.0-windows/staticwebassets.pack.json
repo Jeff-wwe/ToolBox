@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\qrcode.html"
     },
     {
+      "Id": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\unit-converter.html",
+      "PackagePath": "staticwebassets\\unit-converter.html"
+    },
+    {
       "Id": "obj\\Debug\\net8.0-windows\\staticwebassets\\msbuild.ToolBox.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

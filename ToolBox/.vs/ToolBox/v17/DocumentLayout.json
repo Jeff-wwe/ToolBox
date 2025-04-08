@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "ToolBox\\wwwroot\\unit-converter.html",
               "ToolTip": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\unit-converter.html",
               "RelativeToolTip": "ToolBox\\wwwroot\\unit-converter.html",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAAI4AAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAwwKQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-04-07T06:20:18.791Z",
               "EditorCaption": ""
@@ -47,7 +47,8 @@
               "RelativeToolTip": "ToolBox\\wwwroot\\base64.html",
               "ViewState": "AgIAADMAAAAAAAAAAAAAADQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-04-02T07:06:35.925Z"
+              "WhenOpened": "2025-04-02T07:06:35.925Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,9 +58,10 @@
               "RelativeDocumentMoniker": "ToolBox\\wwwroot\\main.html",
               "ToolTip": "D:\\C#\\ToolBox\\ToolBox\\wwwroot\\main.html",
               "RelativeToolTip": "ToolBox\\wwwroot\\main.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-04-01T01:52:58.693Z"
+              "WhenOpened": "2025-04-01T01:52:58.693Z",
+              "EditorCaption": ""
             }
           ]
         }
